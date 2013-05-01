@@ -6,7 +6,7 @@
 }
 \title{CS25210-IWP Report}
 \date{2013-04-30}
-\authour{Christopher Marriott, cpm4@aber.ac.uk}
+\author{Christopher Marriott, cpm4@aber.ac.uk}
 
 \begin{document}
 \maketitle
@@ -53,12 +53,38 @@ The game works all be it slowly on firefox, chrome and default browser. Where ke
 \subsection{Mac}
 The game works perfectly on Safari when loaded and doesn't pose any issues.
 
-\includegraphics[scale=0.2]{mac.jpg}
+\begin{figure}[p]
+\centering
+\includegraphics[scale=0.3]{mac.jpg}
+\caption{Game on Mac Safari}
+\label{fig:Game_On_Safari}
+\end{figure}
 
 \subsection{Windows}
-For Firefox and Chrome on Windows the game worked perfectly. However, on IE8 for Windows 7 the eventListeners did not work causing a complete game failure. The game is therefore unplayable ong IE8. 
+For Firefox all the game worked apart from the pause menu. This means while playing the game you can not pause and/or return to the main menu. On Chrome the game worked perfectly. However, on Internet Explorer the canvas element wouldn't load, there was just a message saying 'browser does not support canvas element'. The game is therefore unplayable ong Internet Explorer. 
 
+\begin{figure}[p]
+\centering
+\includegraphics[scale=0.5]{winIE.jpg}
+\caption{Game on Windows Internet Explorer}
+\label{fig:Game_On_IE}
+\end{figure}
 
+\begin{figure}[p]
+\centering
+\includegraphics[scale=0.5]{winC.jpg}
+\caption{Game on Windows Chromium}
+\label{fig:Game_On_Chromium}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[scale=0.5]{winF.jpg}
+\caption{Game on Windows Firefox}
+\label{fig:Game_On_Firefox}
+\end{figure}
+
+\newpage
 \section{Reflections and Future Work}
 There are many ways in which the game can be improved, the first and most important would be to use a library to help improve overall code. The second would be to improve the gameplay giving it differing enemies and even a story mode and survival mode.
 \\\\
